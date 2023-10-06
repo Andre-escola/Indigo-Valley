@@ -1,0 +1,46 @@
+header{
+    background-color: blue;
+    
+}
+
+/*os bagui de texto*/
+
+p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+/* caixa */
+div{
+    border: 10px;
+    border-color: black;
+    border-style: groove;
+    width: 350px;
+    height: 400px;
+}
+
+/* CLASSES DO INDEX*/
+
+.tres-riscos{
+    height:50px;
+    width: 50px;
+}
+
+.video-praticamente{
+    height: 400px;
+    width: 600px;
+}
+
+img{
+    width: 350px;   
+}
