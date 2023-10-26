@@ -88,8 +88,8 @@ header{
 
 /* caixa dos jogos*/
 div{
-    width: 300px;
-    height: 350px;
+    width: 100px;
+    height: 100px;
     display: inline-flex;
 }
 
@@ -114,5 +114,5 @@ img{
     width: 300px;
 }
 
-/*Store tags*/
+/*pagina jogo*/
 
