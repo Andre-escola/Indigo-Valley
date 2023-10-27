@@ -87,14 +87,14 @@ header{
 
 
 /* caixa dos jogos*/
-div{
-    width: 100px;
-    height: 100px;
-    display: inline-flex;
+div li{
+    width: 300px;
+    height: 500px;
+    display: inline-block;
 }
 
 .price-games{
-    display:inline-flex;
+    display: flex;
 }
 
 /* CLASSES DO INDEX*/
@@ -115,4 +115,15 @@ img{
 }
 
 /*pagina jogo*/
+.content-director{
+    display: inline;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+/*FOOTER/ PÉZADOR*/
+footer{
+    text-align: center;
+}
 
