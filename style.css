@@ -4,9 +4,10 @@ header{
 }
 
 .header-title{
-    text-align: center;
     display: inline;
     padding: 10px;
+    color:rgba(240, 234, 234, 0.904);
+    font-size: 40px;
 }
 
 .header-store{
@@ -91,10 +92,15 @@ div li{
     width: 300px;
     height: 500px;
     display: inline-block;
+    padding-left: 10px;
 }
 
 .price-games{
     display: flex;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* CLASSES DO INDEX*/
@@ -105,8 +111,8 @@ div li{
 }
 
 .video-praticamente{
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: auto;
     padding-bottom: 20px;
 }
 
@@ -115,13 +121,37 @@ img{
 }
 
 /*pagina jogo*/
+
 .content-director{
     display: inline;
     padding-right: 50px;
     padding-left: 50px;
 }
 
+button{
+    background-color: greenyellow;
+} 
 
+.desc-page{
+    width: 700px;
+    text-align: center;
+    text-align: justify;
+    background-color: #161515;
+    margin: auto;
+}
+
+.title-game-page{
+    text-align: center;
+}
+
+.text-page{
+    font-size: 20px;
+    color: white;
+}
+
+.page-download{
+    background-image: url(background-image.jpeg);
+}
 /*FOOTER/ PÉZADOR*/
 footer{
     text-align: center;
